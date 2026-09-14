@@ -1,0 +1,9 @@
+# Compiled output
+*.exe
+*.out
+*.o
+M1_FirstProgram/M1_FirstProgram
+
+# VS Code local state (keep shared JSON configuration)
+.vscode/*.log
+
