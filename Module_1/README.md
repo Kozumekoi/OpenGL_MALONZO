@@ -2,16 +2,20 @@
 
 This folder contains one standalone C++/FreeGLUT solution for each exercise Q01-Q20.
 
-## Build on MSYS2 UCRT64
+## Build on Linux Mint
 
 From the folder containing a source file, run:
 
 ```bash
-g++ Q01_Red_Center_Point.cpp -o Q01.exe -lfreeglut -lopengl32 -lglu32
-./Q01.exe
+g++ Q01_Red_Center_Point.cpp -o Q01 -lglut -lGL -lGLU
+./Q01
 ```
 
 Replace the filename and executable name for the exercise you want to run. In the course VS Code workspace, the provided Ctrl+Shift+B build task may be used instead.
+
+## Output Gallery
+
+See [Module 1 Output Gallery](RESULTS.md) for the captured results. Q15-Q19 include MP4 demonstrations of animation or keyboard interaction.
 
 ## Interactive exercises
 
