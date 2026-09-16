@@ -1,6 +1,6 @@
 # Module 2 Output Gallery
 
-These results were extracted from the completed Module 2 laboratory document. Q15 did not have an embedded output in that document. Q17 is provided as an MP4 because it demonstrates keyboard interaction.
+These results were extracted from the completed Module 2 laboratory document. Q17 is provided as an MP4 because it demonstrates keyboard interaction.
 
 | Exercise | Captured output |
 | --- | --- |
@@ -18,7 +18,7 @@ These results were extracted from the completed Module 2 laboratory document. Q1
 | Q12 Staircase Ribbon | <img src="outputs/Q12_Staircase_Ribbon.png" width="420" alt="Q12 staircase ribbon output"> |
 | Q13 Yellow-to-Purple Gradient Line | <img src="outputs/Q13_Yellow_To_Purple_Gradient_Line.png" width="420" alt="Q13 yellow-to-purple gradient output"> |
 | Q14 Two Stipple Patterns | <img src="outputs/Q14_Two_Stipple_Patterns.png" width="420" alt="Q14 two stipple patterns output"> |
-| Q15 Smoothly Shaded Square | Output not embedded in the laboratory document. |
+| Q15 Smoothly Shaded Square | <img src="outputs/Q15_Smoothly_Shaded_Square.png" width="420" alt="Q15 smoothly shaded square output"> |
 | Q16 Fan and Quad Composition | <img src="outputs/Q16_Fan_And_Quad_Composition.png" width="420" alt="Q16 fan and quad composition output"> |
 | Q17 Toggle Stipple With Keyboard | [Watch the MP4 demonstration](outputs/Q17_Toggle_Stipple.mp4) |
 | Q18 Alternating-Color Ribbon | <img src="outputs/Q18_Alternating_Color_Ribbon.png" width="420" alt="Q18 alternating-color ribbon output"> |
