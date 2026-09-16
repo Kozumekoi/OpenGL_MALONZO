@@ -1,9 +1,10 @@
 # Compiled output
+build/
 *.exe
 *.out
 *.o
+Module_*/Q[0-9][0-9]
 M1_FirstProgram/M1_FirstProgram
 
 # VS Code local state (keep shared JSON configuration)
 .vscode/*.log
-
