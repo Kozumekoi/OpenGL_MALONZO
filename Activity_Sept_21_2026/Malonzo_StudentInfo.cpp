@@ -274,11 +274,10 @@ void displayCourses() {
     const float colTime = tableX + 1320;
     const float colRoom = tableX + 1810;
 
-    // Leave one full row of space below the column headings before the courses.
     const float rowStart = tableY + headerH;
 
     // CS0011
-    // Display Mobile Programming immediately after Linear Algebra.
+
     float y = rowStart + 10;
 
     drawCenteredText(tableX + 10, y, 100, "CS0011",
