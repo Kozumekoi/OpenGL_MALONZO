@@ -274,7 +274,8 @@ void displayCourses() {
     const float colTime = tableX + 1320;
     const float colRoom = tableX + 1810;
 
-    const float rowStart = tableY + headerH + rowH;
+    // Leave one full row of space below the column headings before the courses.
+    const float rowStart = tableY + headerH;
 
     // CS0011
     // Display Mobile Programming immediately after Linear Algebra.
