@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Create build directory",
+      "type": "shell",
+      "command": "mkdir",
+      "args": ["-p", "build"],
+      "windows": {
+        "command": "cmd",
+        "args": ["/c", "if not exist build mkdir build"]
+      },
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build Current OpenGL Exercise",
+      "type": "shell",
+      "command": "g++",
+      "args": ["-std=c++17", "-g", "-Wall", "-Wextra", "${file}", "-o", "${workspaceFolder}/build/${fileBasenameNoExtension}", "-lglut", "-lGLU", "-lGL"],
+      "windows": {
+        "args": ["-std=c++17", "-g", "-Wall", "-Wextra", "${file}", "-o", "${workspaceFolder}/build/${fileBasenameNoExtension}.exe", "-lfreeglut", "-lopengl32", "-lglu32"]
+      },
+      "problemMatcher": ["$gcc"],
+      "group": { "kind": "build", "isDefault": true },
+      "dependsOn": "Create build directory",
+      "dependsOrder": "sequence",
+      "options": { "cwd": "${workspaceFolder}" }
+    },
+    {
+      "label": "Run Current OpenGL Exercise",
+      "type": "shell",
+      "command": "${workspaceFolder}/build/${fileBasenameNoExtension}",
+      "windows": { "command": "${workspaceFolder}/build/${fileBasenameNoExtension}.exe" },
+      "dependsOn": "Build Current OpenGL Exercise",
+      "dependsOrder": "sequence",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    }
+  ]
+}
