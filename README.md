@@ -19,3 +19,7 @@ Install Microsoft's **C/C++** extension (`ms-vscode.cpptools`) in Visual Studio 
 4. Press `F5` to build and run it with GDB.
 
 The shared build and debug configuration is stored in `.vscode/`.
+
+## Development Environment
+
+I switched to Linux Mint with the Xfce desktop environment. I use VS Code, GCC, and FreeGLUT for the C++ OpenGL projects.
