@@ -39,7 +39,7 @@ Run the program from this folder so its relative `assets/...` image paths resolv
 
 ## ChatGPT conversation
 
-The submitted conversation is available here: [Project conversation](codex://threads/01a11a07-7e2f-7192-8d61-4e7faedbc19f)
+The submitted conversation is available here: [Project conversation](https://chatgpt.com/s/cx_6acc2254005c81918e0fa471d8fb234c)
 
 ## Video demonstration
 
