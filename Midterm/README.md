@@ -43,7 +43,7 @@ The submitted conversation is available here: [Project conversation](codex://thr
 
 ## Video demonstration
 
-The 8–12 minute video demonstration still needs to be recorded and added to the submission. It is not included in this repository yet.
+Video demonstration: [Open the Google Drive video folder](https://drive.google.com/drive/folders/1WDOWvPw1FZjYP3Pyqp1_hZaF7PWxNFZ8?usp=drive_link).
 
 ## Project repository
 
